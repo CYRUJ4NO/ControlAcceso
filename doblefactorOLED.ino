@@ -6,9 +6,10 @@
 #include <MFRC522.h>
 #include <Keypad.h>
 
-//se declaran los pines para el funcionamiento de la tarjeta
+//se declaran los pines para el funcionamiento de la tarjeta 
 #define RST_PIN  48   //Pin  para el reset del RC522
 #define SS_PIN  53   //Pin  para el SS (SDA) del RC522
+//mega mosi 51, miso 50, sck 52, sda 53
 MFRC522 mfrc522(SS_PIN, RST_PIN); ///Creamos el objeto para el RC522
 
 // Aqui se declaran las medidas del display
